@@ -1,8 +1,7 @@
-// import debug from '/imports/api/sum/helpers';
-import debug from './helpers';
+import { debug } from '/imports/api/calculator/helpers';
 
 export function sum(a, b) {
-  console.log(__dirname);
+  debug(__dirname);
   return a + b;
 }
 
