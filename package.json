@@ -12,6 +12,7 @@
     "meteor-node-stubs": "^0.3.2"
   },
   "devDependencies": {
-    "jest": "^22.4.3"
+    "jest": "^22.4.3",
+    "jest-meteor-stubs": "^1.5.1"
   }
 }

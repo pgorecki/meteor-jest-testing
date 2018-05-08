@@ -8,7 +8,9 @@ module.exports = {
   ],
   modulePaths: [
     '<rootDir>/node_modules/',
-    '<rootDir>/node_modules/jest-meteor-stubs/lib/',
+    //'<rootDir>/jest-meteor/',
+    // '<rootDir>/node_modules/jest-meteor-stubs/lib/',
+    '<rootDir>/jest-meteor/src/',
   ],
   moduleNameMapper: {
     '^(.*):(.*)$': '$1_$2',

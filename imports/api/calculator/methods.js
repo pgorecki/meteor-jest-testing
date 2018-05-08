@@ -1,7 +1,13 @@
+import { Meteor } from 'meteor/meteor';
 import { debug } from '/imports/api/calculator/helpers';
 
 export function sum(a, b) {
-  debug(__dirname);
   return a + b;
 }
+
+Meteor.methods({
+  'add'(a, b) {
+    return sum(a, b);
+  }
+});
 
