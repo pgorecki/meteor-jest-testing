@@ -8,13 +8,11 @@ module.exports = {
   ],
   modulePaths: [
     '<rootDir>/node_modules/',
-    //'<rootDir>/jest-meteor/',
-    // '<rootDir>/node_modules/jest-meteor-stubs/lib/',
-    '<rootDir>/jest-meteor/src/',
+    '<rootDir>/.tests/__mocks__/packages/',
   ],
   moduleNameMapper: {
-    '^(.*):(.*)$': '$1_$2',
     '^/imports/(.*)$': '<rootDir>/imports/$1'
+    // '^(.*):(.*)$': '$1_$2',
   },
   unmockedModulePathPatterns: [
     '/^imports\\/.*\\.jsx?$/',
